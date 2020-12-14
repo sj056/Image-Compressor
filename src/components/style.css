@@ -1,0 +1,115 @@
+
+#title
+{
+    color: #3fa199;
+    size:50px !important;
+    justify-content: center;
+    align-items: center;
+    font-family:serif !important;
+}
+
+#icons{
+    size:1px;
+}
+#kb{
+    font-family: serif;
+    margin: 5px;
+    size:30px;
+    color: white;
+    font-weight: 10px;
+    width:230px;
+    margin-left: 26px;
+    border-radius: 4px;
+}
+code{
+    color:turquoise;
+    background-color: #1a1c20;
+    position: static !important;
+}
+svg{
+    size:50px;
+    position: static !important;
+}
+circle{
+    position: static !important;
+}
+.bm-burger-button {
+    position: fixed;
+    width: 31px;
+    height: 26px;
+    color: white;
+    left: 10px;
+    top: 10px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #525050;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #868686;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100px !important;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background:#222831;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    width: auto;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  #slide{
+    width:"100px";
+  }
+  .GitHubIcon:hover{
+   color: turquoise;
+  }
+  .LinkedInIcon:hover{
+    color: turquoise;
+   }
+   .TwitterIcon:hover{
+    color: turquoise;
+   }
