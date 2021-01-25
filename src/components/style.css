@@ -1,25 +1,25 @@
-
-#title
-{
-    color: #3fa199;
-    size:50px !important;
-    justify-content: center;
-    align-items: center;
-    font-family:serif !important;
+.head{
+  isolation: isolate;
 }
+.middle{
 
+  justify-content:center; 
+  align-items:center;
+  margin-left: 50px;
+}
 #icons{
     size:1px;
 }
 #kb{
-    font-family: serif;
+    font-family: monospace;
     margin: 5px;
     size:30px;
-    color: white;
+    color: #2ec1ac;
     font-weight: 10px;
     width:230px;
     margin-left: 26px;
     border-radius: 4px;
+
 }
 code{
     color:turquoise;
@@ -35,8 +35,8 @@ circle{
 }
 .bm-burger-button {
     position: fixed;
-    width: 31px;
-    height: 26px;
+    width: 30px;
+    height: 24px;
     color: white;
     left: 10px;
     top: 10px;
@@ -45,6 +45,7 @@ circle{
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: #373a47;
+    border-radius: 5px;
   }
   
   /* Color/shape of burger icon bars on hover*/
@@ -54,8 +55,8 @@ circle{
   
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
   }
   
   /* Color/shape of close button cross */
@@ -99,17 +100,12 @@ circle{
   
   /* Styling of overlay */
   .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
+    background: white;
   }
   #slide{
     width:"100px";
   }
-  .GitHubIcon:hover{
+  .links:hover{
    color: turquoise;
   }
-  .LinkedInIcon:hover{
-    color: turquoise;
-   }
-   .TwitterIcon:hover{
-    color: turquoise;
-   }
+ 
